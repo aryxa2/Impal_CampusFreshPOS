@@ -7,3 +7,6 @@
 ## Mockup Antarmuka
 
 ## Stack Teknologi
+Frontend: JavaScript
+Backend: PHP
+Database: MySQL
