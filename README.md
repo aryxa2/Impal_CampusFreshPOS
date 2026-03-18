@@ -4,7 +4,9 @@
 
 ## Perancangan Sistem (DFD)
 - DFD Level 0
+![WhatsApp Image 2026-03-17 at 23 07 09](https://github.com/user-attachments/assets/65846c76-b0b2-44fb-9df3-a47e37a4b273)
 - DFD Level 1
+![WhatsApp Image 2026-03-18 at 02 12 24](https://github.com/user-attachments/assets/68c23e5a-bfea-41ef-850e-ba67849b39f2)
   
 ## Mockup Antarmuka
 
