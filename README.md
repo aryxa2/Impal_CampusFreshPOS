@@ -7,8 +7,8 @@
 - DFD Level 0
 <img width="959" height="400" alt="dfd_lvl_0 drawio" src="https://github.com/user-attachments/assets/5d946fb2-1019-4336-be1e-e893e57ad411" />
 - DFD Level 1
-![WhatsApp Image 2026-03-18 at 02 12 24](https://github.com/user-attachments/assets/68c23e5a-bfea-41ef-850e-ba67849b39f2)
-  
+<img width="1600" height="826" alt="image" src="https://github.com/user-attachments/assets/9a1637b5-1055-40d4-b6e4-84121d3f856a" />
+
 ## Mockup Antarmuka
 <img width="1167" height="656" alt="image" src="https://github.com/user-attachments/assets/fe812aae-5797-4419-925d-507b2720010c" />
 <img width="1162" height="656" alt="image" src="https://github.com/user-attachments/assets/ce211431-4f5d-4b11-91a7-2582d5ba4bf8" />
