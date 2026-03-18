@@ -1,6 +1,7 @@
-# Tugas Besar CampusFreshPOS : Sistem POS Mini (Penjualan & Stok Sederhana)
+<img width="1029" height="730" alt="image" src="https://github.com/user-attachments/assets/e2906cdf-8141-489e-bd52-cc7e3e32d707" /># Tugas Besar CampusFreshPOS : Sistem POS Mini (Penjualan & Stok Sederhana)
 
-![Timeline]([images/Screenshot 2026-03-17 231421.png](https://github.com/aryxa2/Impal_CampusFreshPOS/blob/b80d8040f844650e4298a5c9e5457a0d9724274b/Screenshot%202026-03-17%20231421.png))
+<img width="1029" height="730" alt="image" src="https://github.com/user-attachments/assets/b56c9da7-a3c5-4b64-98f4-4f9d41d3cd2c" />
+
 
 ## Perancangan Sistem (DFD)
 - DFD Level 0
