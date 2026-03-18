@@ -1,4 +1,4 @@
-<img width="1029" height="730" alt="image" src="https://github.com/user-attachments/assets/e2906cdf-8141-489e-bd52-cc7e3e32d707" /># Tugas Besar CampusFreshPOS : Sistem POS Mini (Penjualan & Stok Sederhana)
+# Tugas Besar CampusFreshPOS : Sistem POS Mini (Penjualan & Stok Sederhana)
 
 <img width="1029" height="730" alt="image" src="https://github.com/user-attachments/assets/b56c9da7-a3c5-4b64-98f4-4f9d41d3cd2c" />
 
