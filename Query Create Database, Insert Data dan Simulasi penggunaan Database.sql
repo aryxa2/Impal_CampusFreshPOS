@@ -108,21 +108,22 @@ INSERT INTO detail_pesanan (qty, harga_satuan, harga_modal_satuan, subtotal_harg
 
 -- SIMULASI OPERASIONAL
 -- [Proses 1] Simulasi Login Kasir
-SELECT id_kasir, nama FROM kasir WHERE username = 'andi_kasir' AND password_hash = 'hash_12345';
+SELECT * FROM kasir WHERE username = 'kresna' AND password_hash = 'hash_pw_001';
 
 -- [Proses 2] Simulasi Menampilkan Katalog Produk
 SELECT id_produk, nama_produk, harga_jual, stock FROM produk WHERE status_aktif = TRUE;
 
 -- [Proses 3] Simulasi Kasir Memproses Pesanan Baru (Checkout)
 -- A. Masukkan Pelanggan (Jika belum ada)
-INSERT IGNORE INTO pelanggan (nim, nama_pembeli, no_telp, alamat) VALUES ('1301213004', 'Fajar', '0855667788', 'Asrama');
--- B. Buat Header Pesanan
-INSERT INTO pesanan (nomer_pesanan, invoice, catatan_pemesanan, bukti_pembayaran, total_bayar, id_kasir, nim) 
-VALUES ('ORD-004', 'INV-004', 'Cepat ya', 'bukti.jpg', 60000, 'KSR01', '1301213004');
--- C. Masukkan Item Keranjang
+INSERT IGNORE INTO pelanggan (nim, nama_pembeli, no_telp, alamat) 
+VALUES ('1301213004', 'Fajar', '0855667788', 'Asrama');
+-- B. Buat Header Pesanan (Revisi: Menggunakan username 'kresna')
+INSERT INTO pesanan (nomer_pesanan, invoice, catatan_pemesanan, bukti_pembayaran, total_bayar, username_kasir, nim) 
+VALUES ('ORD-004', 'INV-004', 'Cepat ya', 'bukti.jpg', 60000, 'kresna', '1301213004');
+-- C. Masukkan Item Keranjang (Contoh: Beli 2 Buku Tulis)
 INSERT INTO detail_pesanan (qty, harga_satuan, harga_modal_satuan, subtotal_harga, nomer_pesanan, id_produk) 
 VALUES (2, 30000, 20000, 60000, 'ORD-004', 'PRD06');
--- D. Kurangi Stok
+-- D. Kurangi Stok Produk
 UPDATE produk SET stock = stock - 2 WHERE id_produk = 'PRD06';
 -- E. Kasir Konfirmasi Pesanan Selesai
 UPDATE pesanan SET status_pesanan = 'Selesai' WHERE nomer_pesanan = 'ORD-004';
