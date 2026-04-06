@@ -1,0 +1,139 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Halaman-1" id="0xcIq7g4v40M10HQh0AJ">
+    <mxGraphModel dx="1174" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_ogNRqoLp-CFHetp2OG2-22" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" value="Kasir" vertex="1">
+          <mxGeometry height="54" width="95" x="150" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="_ogNRqoLp-CFHetp2OG2-23" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#E3C800,#DAAA00);strokeColor=#B09500;fontColor=#000000;" value="Pelanggan" vertex="1">
+          <mxGeometry height="54" width="132" x="898" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="_ogNRqoLp-CFHetp2OG2-24" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#E51400,#FF4646);strokeColor=#B20000;fontColor=#ffffff;fillStyle=auto;" value="0. Sistem Kasir POS" vertex="1">
+          <mxGeometry height="153" width="153" x="495" y="361" as="geometry" />
+        </mxCell>
+        <mxCell id="_ogNRqoLp-CFHetp2OG2-25" edge="1" parent="1" style="startArrow=none;endArrow=block;exitX=0.78;exitY=0;entryX=0;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;entryDx=0;entryDy=0;" target="_ogNRqoLp-CFHetp2OG2-24" value="Data Login &amp; Karyawan">
+          <mxGeometry relative="1" x="0.0387" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="200" y="320" />
+              <mxPoint x="517" y="320" />
+              <mxPoint x="517" y="383" />
+            </Array>
+            <mxPoint x="199.99999999999991" y="405" as="sourcePoint" />
+            <mxPoint x="489.97041595540884" y="386.96196604075976" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ogNRqoLp-CFHetp2OG2-26" edge="1" parent="1" style="startArrow=none;endArrow=block;entryX=0;entryY=0.17;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="_ogNRqoLp-CFHetp2OG2-24" value="Data Produk (Tambah/Edit)">
+          <mxGeometry relative="1" x="0.0612" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="210" y="405" />
+              <mxPoint x="210" y="340" />
+              <mxPoint x="508" y="340" />
+            </Array>
+            <mxPoint x="210" y="405" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ogNRqoLp-CFHetp2OG2-27" edge="1" parent="1" source="_ogNRqoLp-CFHetp2OG2-22" style="startArrow=none;endArrow=block;exitX=0.75;exitY=0;entryX=0;entryY=0.31;rounded=0;edgeStyle=orthogonalEdgeStyle;exitDx=0;exitDy=0;" target="_ogNRqoLp-CFHetp2OG2-24" value="Konfirmasi &amp; Update Status Pesanan">
+          <mxGeometry relative="1" x="-0.0134" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="221" y="360" />
+              <mxPoint x="500" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ogNRqoLp-CFHetp2OG2-28" edge="1" parent="1" style="startArrow=none;endArrow=block;entryX=0;entryY=0.45;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="_ogNRqoLp-CFHetp2OG2-24" value="Req Settlement &amp; Laporan">
+          <mxGeometry relative="1" x="-0.0694" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="230" y="380" />
+              <mxPoint x="495" y="380" />
+            </Array>
+            <mxPoint x="230" y="405" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ogNRqoLp-CFHetp2OG2-29" edge="1" parent="1" source="_ogNRqoLp-CFHetp2OG2-24" style="startArrow=none;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.856;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.032;exitY=0.683;exitDx=0;exitDy=0;exitPerimeter=0;" target="_ogNRqoLp-CFHetp2OG2-22" value="Status Autentikasi">
+          <mxGeometry relative="1" x="0.0408" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="500" y="469" />
+              <mxPoint x="500" y="469" />
+              <mxPoint x="500" y="510" />
+              <mxPoint x="231" y="510" />
+              <mxPoint x="231" y="470" />
+              <mxPoint x="231" y="470" />
+            </Array>
+            <mxPoint x="490" y="460" as="sourcePoint" />
+            <mxPoint x="250" y="447" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ogNRqoLp-CFHetp2OG2-30" edge="1" parent="1" style="startArrow=none;endArrow=block;entryX=0.747;entryY=0.991;rounded=0;edgeStyle=orthogonalEdgeStyle;entryDx=0;entryDy=0;entryPerimeter=0;" target="_ogNRqoLp-CFHetp2OG2-22" value="Info Stok &amp; Katalog">
+          <mxGeometry relative="1" x="-0.0008" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="510" y="482" />
+              <mxPoint x="510" y="530" />
+              <mxPoint x="221" y="530" />
+            </Array>
+            <mxPoint x="510" y="482" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ogNRqoLp-CFHetp2OG2-31" edge="1" parent="1" source="_ogNRqoLp-CFHetp2OG2-24" style="startArrow=none;endArrow=block;exitX=0.163;exitY=0.87;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.631;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="_ogNRqoLp-CFHetp2OG2-22" value="Invoice &amp; Order List">
+          <mxGeometry relative="1" x="-0.0278" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="520" y="500" />
+              <mxPoint x="520" y="500" />
+              <mxPoint x="520" y="550" />
+              <mxPoint x="210" y="550" />
+            </Array>
+            <mxPoint x="210" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ogNRqoLp-CFHetp2OG2-32" edge="1" parent="1" source="_ogNRqoLp-CFHetp2OG2-24" style="startArrow=none;endArrow=block;exitX=0.228;exitY=0.919;entryX=0.5;entryY=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryDx=0;entryDy=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="_ogNRqoLp-CFHetp2OG2-22" value="Rekap Pendapatan &amp; Laporan">
+          <mxGeometry relative="1" x="-0.0544" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="530" y="570" />
+              <mxPoint x="198" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ogNRqoLp-CFHetp2OG2-33" edge="1" parent="1" source="_ogNRqoLp-CFHetp2OG2-23" style="startArrow=none;endArrow=block;exitX=-0.001;exitY=0.576;entryX=1;entryY=0.49;rounded=0;edgeStyle=orthogonalEdgeStyle;exitDx=0;exitDy=0;exitPerimeter=0;" target="_ogNRqoLp-CFHetp2OG2-24" value="Data Diri (NIM, Nama, Alamat, dll)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ogNRqoLp-CFHetp2OG2-34" edge="1" parent="1" style="startArrow=none;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="Data Pesanan &amp; Bukti Pembayaran">
+          <mxGeometry relative="1" x="0.068" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="960" y="519" />
+              <mxPoint x="630" y="519" />
+              <mxPoint x="630" y="494" />
+              <mxPoint x="630" y="494" />
+            </Array>
+            <mxPoint x="960" y="459" as="sourcePoint" />
+            <mxPoint x="630" y="489" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ogNRqoLp-CFHetp2OG2-35" edge="1" parent="1" source="_ogNRqoLp-CFHetp2OG2-24" style="startArrow=none;endArrow=block;exitX=0.88;exitY=0.173;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.471;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="_ogNRqoLp-CFHetp2OG2-23" value="Invoice / Tagihan">
+          <mxGeometry relative="1" x="-0.0433" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="630" y="379" />
+              <mxPoint x="630" y="379" />
+              <mxPoint x="630" y="360" />
+              <mxPoint x="960" y="360" />
+            </Array>
+            <mxPoint x="619.9960049765084" y="345.5923379959513" as="sourcePoint" />
+            <mxPoint x="960" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

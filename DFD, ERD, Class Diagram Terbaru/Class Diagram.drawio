@@ -1,0 +1,305 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36">
+  <diagram id="lMqW8VCsNDY9bcHsAJit" name="Halaman-1">
+    <mxGraphModel dx="2054" dy="1149" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="10" parent="1" style="swimlane;fontStyle=1;align=center;startSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="Kasir" vertex="1">
+          <mxGeometry height="250" width="280" x="500" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="10" style="text;align=left;spacingLeft=8;fontSize=12;" value="- id_kasir : int" vertex="1">
+          <mxGeometry height="24" width="280" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="10" style="text;align=left;spacingLeft=8;fontSize=12;" value="- nama_kasir : String" vertex="1">
+          <mxGeometry height="24" width="280" y="54" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="10" style="text;align=left;spacingLeft=8;fontSize=12;" value="- username : String" vertex="1">
+          <mxGeometry height="24" width="280" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="10" style="text;align=left;spacingLeft=8;fontSize=12;" value="- password_hash : String" vertex="1">
+          <mxGeometry height="24" width="280" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="10" style="text;align=left;spacingLeft=8;fontSize=12;" value="- created_at : DateTime" vertex="1">
+          <mxGeometry height="24" width="280" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="10" style="line;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="8" width="280" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="10" style="text;align=left;spacingLeft=8;fontSize=12;" value="+ login(username: String, password: String) : bool" vertex="1">
+          <mxGeometry height="24" width="280" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="18" parent="10" style="text;align=left;spacingLeft=8;fontSize=12;" value="+ logout() : void" vertex="1">
+          <mxGeometry height="24" width="280" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="19" parent="10" style="text;align=left;spacingLeft=8;fontSize=12;" value="+ getProfile() : Kasir" vertex="1">
+          <mxGeometry height="24" width="280" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="1" style="swimlane;fontStyle=1;align=center;startSize=30;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" value="Kategori" vertex="1">
+          <mxGeometry height="200" width="280" x="130" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="20" style="text;align=left;spacingLeft=8;fontSize=12;" value="- id_kategori : int" vertex="1">
+          <mxGeometry height="24" width="280" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="20" style="text;align=left;spacingLeft=8;fontSize=12;" value="- nama_kategori : String" vertex="1">
+          <mxGeometry height="24" width="280" y="54" as="geometry" />
+        </mxCell>
+        <mxCell id="23" parent="20" style="text;align=left;spacingLeft=8;fontSize=12;" value="- deskripsi : String" vertex="1">
+          <mxGeometry height="24" width="280" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="24" parent="20" style="line;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="8" width="280" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="25" parent="20" style="text;align=left;spacingLeft=8;fontSize=12;" value="+ getNamaKategori() : String" vertex="1">
+          <mxGeometry height="24" width="280" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="26" parent="20" style="text;align=left;spacingLeft=8;fontSize=12;" value="+ setNamaKategori(nama: String) : void" vertex="1">
+          <mxGeometry height="24" width="280" y="134" as="geometry" />
+        </mxCell>
+        <mxCell id="27" parent="20" style="text;align=left;spacingLeft=8;fontSize=12;" value="+ getDeskripsi() : String" vertex="1">
+          <mxGeometry height="24" width="280" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="30" parent="1" style="swimlane;fontStyle=1;align=center;startSize=30;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" value="Produk" vertex="1">
+          <mxGeometry height="300" width="300" x="870" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="31" parent="30" style="text;align=left;spacingLeft=8;fontSize=12;" value="- id_produk : int" vertex="1">
+          <mxGeometry height="24" width="300" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="32" parent="30" style="text;align=left;spacingLeft=8;fontSize=12;" value="- id_kategori : int" vertex="1">
+          <mxGeometry height="24" width="300" y="54" as="geometry" />
+        </mxCell>
+        <mxCell id="33" parent="30" style="text;align=left;spacingLeft=8;fontSize=12;" value="- nama_produk : String" vertex="1">
+          <mxGeometry height="24" width="300" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="34" parent="30" style="text;align=left;spacingLeft=8;fontSize=12;" value="- satuan : String" vertex="1">
+          <mxGeometry height="24" width="300" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="35" parent="30" style="text;align=left;spacingLeft=8;fontSize=12;" value="- harga_modal : Decimal" vertex="1">
+          <mxGeometry height="24" width="300" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="36" parent="30" style="text;align=left;spacingLeft=8;fontSize=12;" value="- harga_jual : Decimal" vertex="1">
+          <mxGeometry height="24" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="37" parent="30" style="text;align=left;spacingLeft=8;fontSize=12;" value="- stock : int" vertex="1">
+          <mxGeometry height="24" width="300" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="38" parent="30" style="text;align=left;spacingLeft=8;fontSize=12;" value="- stock_min : int" vertex="1">
+          <mxGeometry height="24" width="300" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="39" parent="30" style="line;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="8" width="300" y="222" as="geometry" />
+        </mxCell>
+        <mxCell id="40" parent="30" style="text;align=left;spacingLeft=8;fontSize=12;" value="+ getMargin() : Decimal" vertex="1">
+          <mxGeometry height="24" width="300" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="41" parent="30" style="text;align=left;spacingLeft=8;fontSize=12;" value="+ isStokMinimum() : bool" vertex="1">
+          <mxGeometry height="24" width="300" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="42" parent="30" style="text;align=left;spacingLeft=8;fontSize=12;" value="+ updateStok(jumlah: int) : void" vertex="1">
+          <mxGeometry height="24" width="300" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="50" parent="1" style="swimlane;fontStyle=1;align=center;startSize=30;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" value="StokMasuk" vertex="1">
+          <mxGeometry height="280" width="280" x="80" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="51" parent="50" style="text;align=left;spacingLeft=8;fontSize=12;" value="- id_stok_masuk : int" vertex="1">
+          <mxGeometry height="24" width="280" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="52" parent="50" style="text;align=left;spacingLeft=8;fontSize=12;" value="- id_produk : int" vertex="1">
+          <mxGeometry height="24" width="280" y="54" as="geometry" />
+        </mxCell>
+        <mxCell id="53" parent="50" style="text;align=left;spacingLeft=8;fontSize=12;" value="- id_kasir : int" vertex="1">
+          <mxGeometry height="24" width="280" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="54" parent="50" style="text;align=left;spacingLeft=8;fontSize=12;" value="- jumlah : int" vertex="1">
+          <mxGeometry height="24" width="280" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="55" parent="50" style="text;align=left;spacingLeft=8;fontSize=12;" value="- harga_modal : Decimal" vertex="1">
+          <mxGeometry height="24" width="280" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="56" parent="50" style="text;align=left;spacingLeft=8;fontSize=12;" value="- keterangan : String" vertex="1">
+          <mxGeometry height="24" width="280" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="57" parent="50" style="text;align=left;spacingLeft=8;fontSize=12;" value="- tgl_masuk : DateTime" vertex="1">
+          <mxGeometry height="24" width="280" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="58" parent="50" style="line;strokeColor=#b85450;" value="" vertex="1">
+          <mxGeometry height="8" width="280" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="59" parent="50" style="text;align=left;spacingLeft=8;fontSize=12;" value="+ tambahStok() : void" vertex="1">
+          <mxGeometry height="24" width="280" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="60" parent="50" style="text;align=left;spacingLeft=8;fontSize=12;" value="+ getProduk() : Produk" vertex="1">
+          <mxGeometry height="24" width="280" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="61" parent="50" style="text;align=left;spacingLeft=8;fontSize=12;" value="+ getKasir() : Kasir" vertex="1">
+          <mxGeometry height="24" width="280" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="70" parent="1" style="swimlane;fontStyle=1;align=center;startSize=30;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" value="Penjualan" vertex="1">
+          <mxGeometry height="340" width="300" x="440" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="71" parent="70" style="text;align=left;spacingLeft=8;fontSize=12;" value="- id_penjualan : int" vertex="1">
+          <mxGeometry height="24" width="300" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="72" parent="70" style="text;align=left;spacingLeft=8;fontSize=12;" value="- id_kasir : int" vertex="1">
+          <mxGeometry height="24" width="300" y="54" as="geometry" />
+        </mxCell>
+        <mxCell id="73" parent="70" style="text;align=left;spacingLeft=8;fontSize=12;" value="- tgl_jual : DateTime" vertex="1">
+          <mxGeometry height="24" width="300" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="74" parent="70" style="text;align=left;spacingLeft=8;fontSize=12;" value="- total : Decimal" vertex="1">
+          <mxGeometry height="24" width="300" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="75" parent="70" style="text;align=left;spacingLeft=8;fontSize=12;" value="- metode_bayar : String" vertex="1">
+          <mxGeometry height="24" width="300" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="76" parent="70" style="text;align=left;spacingLeft=8;fontSize=12;" value="- status : String" vertex="1">
+          <mxGeometry height="24" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="77" parent="70" style="text;align=left;spacingLeft=8;fontSize=12;" value="- bukti_file : String" vertex="1">
+          <mxGeometry height="24" width="300" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="78" parent="70" style="text;align=left;spacingLeft=8;fontSize=12;" value="- keterangan : String" vertex="1">
+          <mxGeometry height="24" width="300" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="79" parent="70" style="line;strokeColor=#9673a6;" value="" vertex="1">
+          <mxGeometry height="8" width="300" y="222" as="geometry" />
+        </mxCell>
+        <mxCell id="80" parent="70" style="text;align=left;spacingLeft=8;fontSize=12;" value="+ hitungTotal() : Decimal" vertex="1">
+          <mxGeometry height="24" width="300" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="81" parent="70" style="text;align=left;spacingLeft=8;fontSize=12;" value="+ uploadBukti(filePath: String) : void" vertex="1">
+          <mxGeometry height="24" width="300" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="82" parent="70" style="text;align=left;spacingLeft=8;fontSize=12;" value="+ batalkan() : void" vertex="1">
+          <mxGeometry height="24" width="300" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="83" parent="70" style="text;align=left;spacingLeft=8;fontSize=12;" value="+ getLaporan(tglMulai: Date, tglAkhir: Date) : List" vertex="1">
+          <mxGeometry height="24" width="300" y="302" as="geometry" />
+        </mxCell>
+        <mxCell id="90" parent="1" style="swimlane;fontStyle=1;align=center;startSize=30;fillColor=#f0e6ff;strokeColor=#7B52AB;fontSize=14;" value="DetailPenjualan" vertex="1">
+          <mxGeometry height="300" width="300" x="870" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="91" parent="90" style="text;align=left;spacingLeft=8;fontSize=12;" value="- id_detail : int" vertex="1">
+          <mxGeometry height="24" width="300" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="92" parent="90" style="text;align=left;spacingLeft=8;fontSize=12;" value="- id_penjualan : int" vertex="1">
+          <mxGeometry height="24" width="300" y="54" as="geometry" />
+        </mxCell>
+        <mxCell id="93" parent="90" style="text;align=left;spacingLeft=8;fontSize=12;" value="- id_produk : int" vertex="1">
+          <mxGeometry height="24" width="300" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="94" parent="90" style="text;align=left;spacingLeft=8;fontSize=12;" value="- quantity : int" vertex="1">
+          <mxGeometry height="24" width="300" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="95" parent="90" style="text;align=left;spacingLeft=8;fontSize=12;" value="- harga_modal : Decimal" vertex="1">
+          <mxGeometry height="24" width="300" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="96" parent="90" style="text;align=left;spacingLeft=8;fontSize=12;" value="- harga_jual : Decimal" vertex="1">
+          <mxGeometry height="24" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="97" parent="90" style="text;align=left;spacingLeft=8;fontSize=12;" value="- subtotal : Decimal {generated}" vertex="1">
+          <mxGeometry height="24" width="300" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="98" parent="90" style="text;align=left;spacingLeft=8;fontSize=12;" value="- laba_kotor : Decimal {generated}" vertex="1">
+          <mxGeometry height="24" width="300" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="99" parent="90" style="line;strokeColor=#7B52AB;" value="" vertex="1">
+          <mxGeometry height="8" width="300" y="222" as="geometry" />
+        </mxCell>
+        <mxCell id="100" parent="90" style="text;align=left;spacingLeft=8;fontSize=12;" value="+ getSubtotal() : Decimal" vertex="1">
+          <mxGeometry height="24" width="300" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="101" parent="90" style="text;align=left;spacingLeft=8;fontSize=12;" value="+ getLabaKotor() : Decimal" vertex="1">
+          <mxGeometry height="24" width="300" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="102" parent="90" style="text;align=left;spacingLeft=8;fontSize=12;" value="+ getProduk() : Produk" vertex="1">
+          <mxGeometry height="24" width="300" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="201" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;endArrow=open;endFill=0;endSize=8;fontSize=11;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="50" value="mencatat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="200" connectable="0" parent="201" style="edgeLabel;fontSize=11;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.8" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="202" connectable="0" parent="201" style="edgeLabel;fontSize=11;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.8" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="211" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;endArrow=open;endFill=0;endSize=8;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="70" value="memproses">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="210" connectable="0" parent="211" style="edgeLabel;fontSize=11;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.8" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="212" connectable="0" parent="211" style="edgeLabel;fontSize=11;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.8" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="221" edge="1" parent="1" source="20" style="edgeStyle=orthogonalEdgeStyle;endArrow=open;endFill=0;endSize=8;fontSize=11;" target="30" value="mengkategorikan">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="220" connectable="0" parent="221" style="edgeLabel;fontSize=11;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.8" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="222" connectable="0" parent="221" style="edgeLabel;fontSize=11;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.8" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="231" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;endArrow=open;endFill=0;endSize=8;fontSize=11;entryX=0.225;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;rounded=1;curved=0;" value="dicatat pada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="219.5" y="310" as="sourcePoint" />
+            <mxPoint x="219.5" y="676.0799999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="230" connectable="0" parent="231" style="edgeLabel;fontSize=11;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.8" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="232" connectable="0" parent="231" style="edgeLabel;fontSize=11;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.8" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="241" edge="1" parent="1" source="42" style="endArrow=open;endFill=0;endSize=8;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" target="90" value="termuat dalam">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="620" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="240" connectable="0" parent="241" style="edgeLabel;fontSize=11;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.8" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="242" connectable="0" parent="241" style="edgeLabel;fontSize=11;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.8" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="251" edge="1" parent="1" source="76" style="endArrow=open;endFill=0;endSize=8;fontSize=11;entryX=0;entryY=0.639;entryDx=0;entryDy=0;exitX=1;exitY=0.583;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;entryPerimeter=0;" target="96" value="terdiri dari">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="890" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="250" connectable="0" parent="251" style="edgeLabel;fontSize=11;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.8" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="252" connectable="0" parent="251" style="edgeLabel;fontSize=11;" value="1..*" vertex="1">
+          <mxGeometry relative="1" x="0.8" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

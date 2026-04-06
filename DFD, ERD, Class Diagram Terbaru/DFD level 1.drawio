@@ -1,0 +1,182 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Halaman-1" id="kIsJPLOVM6Sp_BvZE1Nq">
+    <mxGraphModel dx="1712" dy="958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d_MlfYKegQHGt1jVshfo-30" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" value="Kasir" vertex="1">
+          <mxGeometry height="54" width="95" x="190" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-31" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="Pelanggan" vertex="1">
+          <mxGeometry height="54" width="132" x="941" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-32" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#A20025,#FF3131);strokeColor=#6F0000;fontColor=#ffffff;" value="1. Autentikasi &#xa;&amp; Kelola Akun" vertex="1">
+          <mxGeometry height="114" width="114" x="540" y="262" as="geometry" />
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-33" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#A20025,#FF3131);strokeColor=#6F0000;fontColor=#ffffff;" value="2. Kelola &#xa;Produk" vertex="1">
+          <mxGeometry height="78" width="78" x="558" y="739" as="geometry" />
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-34" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#A20025,#FF3131);strokeColor=#6F0000;fontColor=#ffffff;" value="3. Proses &#xa;Transaksi &amp; Tagihan" vertex="1">
+          <mxGeometry height="155" width="155" x="520" y="454" as="geometry" />
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-35" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#E3C800,#D7A800);strokeColor=#B09500;fontColor=#000000;" value="4. Settlement &#xa;&amp; Laporan" vertex="1">
+          <mxGeometry height="114" width="114" x="1170" y="454" as="geometry" />
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-36" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="D1: Kasir" vertex="1">
+          <mxGeometry height="68" width="79" x="968" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-37" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="D2: Produk" vertex="1">
+          <mxGeometry height="71" width="93" x="960.5" y="742.5" as="geometry" />
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-38" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="D3: Pelanggan" vertex="1">
+          <mxGeometry height="75" width="116" x="949" y="486" as="geometry" />
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-39" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="D4: Pesanan &amp; Detail" vertex="1">
+          <mxGeometry height="82" width="165" x="925" y="611" as="geometry" />
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-40" edge="1" parent="1" style="startArrow=none;endArrow=block;exitX=0.71;exitY=0;entryX=-0.004;entryY=0.463;rounded=0;edgeStyle=orthogonalEdgeStyle;entryDx=0;entryDy=0;entryPerimeter=0;" target="d_MlfYKegQHGt1jVshfo-32" value="Data Login / Karyawan">
+          <mxGeometry relative="1" x="0.3926" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="237" y="315" />
+            </Array>
+            <mxPoint x="237.28000000000003" y="505" as="sourcePoint" />
+            <mxPoint x="520.0002567399448" y="314.59769594464365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-41" edge="1" parent="1" source="d_MlfYKegQHGt1jVshfo-32" style="startArrow=none;endArrow=block;entryX=0.77;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.02;exitY=0.681;exitDx=0;exitDy=0;exitPerimeter=0;" value="Status Login">
+          <mxGeometry relative="1" x="-0.377" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="250" y="340" />
+            </Array>
+            <mxPoint x="530.2699999999999" y="339.86199999999997" as="sourcePoint" />
+            <mxPoint x="249.99999999999997" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-42" edge="1" parent="1" style="startArrow=none;endArrow=block;exitX=0.74;exitY=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="Input Data Produk">
+          <mxGeometry relative="1" x="0.4086" y="2" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="256" y="761.55" />
+            </Array>
+            <mxPoint x="255.6999999999999" y="559" as="sourcePoint" />
+            <mxPoint x="560" y="762" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-43" edge="1" parent="1" source="d_MlfYKegQHGt1jVshfo-33" style="startArrow=none;endArrow=block;exitX=0.01;exitY=0.59;entryX=0.557;entryY=1.011;rounded=0;edgeStyle=orthogonalEdgeStyle;entryDx=0;entryDy=0;entryPerimeter=0;" target="d_MlfYKegQHGt1jVshfo-30" value="Tampilan Katalog">
+          <mxGeometry relative="1" x="-0.4137" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-44" edge="1" parent="1" source="d_MlfYKegQHGt1jVshfo-30" style="startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="d_MlfYKegQHGt1jVshfo-34" value="Konfirmasi Bayar &amp; Status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-45" edge="1" parent="1" source="d_MlfYKegQHGt1jVshfo-34" style="startArrow=none;endArrow=block;exitX=0;exitY=0.88;entryX=0.82;entryY=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="d_MlfYKegQHGt1jVshfo-30" value="Notifikasi Berhasil">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="536" y="620" />
+              <mxPoint x="268" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-47" edge="1" parent="1" style="startArrow=none;endArrow=block;exitX=0.529;exitY=1.01;entryX=0.64;entryY=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitDx=0;exitDy=0;exitPerimeter=0;" value="Ringkasan &amp; Detail Laporan">
+          <mxGeometry relative="1" x="-0.0114" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1230" y="568" />
+              <mxPoint x="1230" y="850" />
+              <mxPoint x="220" y="850" />
+            </Array>
+            <mxPoint x="1231" y="568" as="sourcePoint" />
+            <mxPoint x="219.99999999999994" y="559" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-48" edge="1" parent="1" source="d_MlfYKegQHGt1jVshfo-31" style="startArrow=none;endArrow=block;exitX=0;exitY=0.71;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.837;entryY=0.141;entryDx=0;entryDy=0;entryPerimeter=0;" target="d_MlfYKegQHGt1jVshfo-34" value="Data Diri, Order, Bukti Bayar">
+          <mxGeometry relative="1" x="-0.1085" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="650" y="428" />
+              <mxPoint x="650" y="450" />
+              <mxPoint x="650" y="450" />
+            </Array>
+            <mxPoint x="680" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-49" edge="1" parent="1" source="d_MlfYKegQHGt1jVshfo-34" style="startArrow=none;endArrow=block;exitX=0.79;exitY=0;entryX=0;entryY=0.38;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="d_MlfYKegQHGt1jVshfo-31" value="Invoice / Struk">
+          <mxGeometry relative="1" x="0.1567" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="636" y="411" />
+              <mxPoint x="808" y="411" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-50" edge="1" parent="1" source="d_MlfYKegQHGt1jVshfo-32" style="curved=1;startArrow=block;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="d_MlfYKegQHGt1jVshfo-36" value="Read/Write Akun">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-51" edge="1" parent="1" style="startArrow=block;endArrow=block;entryX=-0.011;entryY=0.913;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryPerimeter=0;" value="Read/Write Produk">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="807.02" y="790.42" />
+              <mxPoint x="807.02" y="791.42" />
+            </Array>
+            <mxPoint x="634" y="789.9971644662768" as="sourcePoint" />
+            <mxPoint x="960" y="791.2429999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-52" edge="1" parent="1" source="d_MlfYKegQHGt1jVshfo-34" style="startArrow=none;endArrow=block;exitX=1;exitY=0.425;entryX=0.004;entryY=0.455;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="d_MlfYKegQHGt1jVshfo-38" value="Simpan Data">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-53" edge="1" parent="1" source="d_MlfYKegQHGt1jVshfo-34" style="startArrow=none;endArrow=block;exitX=0.995;exitY=0.555;entryX=0;entryY=0.49;rounded=0;edgeStyle=orthogonalEdgeStyle;exitDx=0;exitDy=0;exitPerimeter=0;" target="d_MlfYKegQHGt1jVshfo-39" value="Simpan Transaksi">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="540" />
+              <mxPoint x="800" y="651" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-54" edge="1" parent="1" source="d_MlfYKegQHGt1jVshfo-34" style="startArrow=none;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=-0.007;entryY=0.391;entryDx=0;entryDy=0;entryPerimeter=0;" target="d_MlfYKegQHGt1jVshfo-37" value="Update Kurangi Stok">
+          <mxGeometry relative="1" x="0.4155" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="670" y="770" />
+              <mxPoint x="960" y="770" />
+            </Array>
+            <mxPoint x="960" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-55" edge="1" parent="1" source="d_MlfYKegQHGt1jVshfo-39" style="startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0.003;entryY=0.63;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" target="d_MlfYKegQHGt1jVshfo-35" value="Tarik Data Transaksi &#39;Selesai&#39;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-56" edge="1" parent="1" source="d_MlfYKegQHGt1jVshfo-37" style="startArrow=none;endArrow=block;exitX=1;exitY=0.5;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.351;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" target="d_MlfYKegQHGt1jVshfo-35" value="Tarik Data Harga Modal">
+          <mxGeometry relative="1" x="-0.5774" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1210" y="778" />
+            </Array>
+            <mxPoint x="1210" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-59" edge="1" parent="1" source="d_MlfYKegQHGt1jVshfo-30" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.526;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" target="d_MlfYKegQHGt1jVshfo-35" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="505" />
+              <mxPoint x="220" y="240" />
+              <mxPoint x="1230" y="240" />
+            </Array>
+            <mxPoint x="200" y="480" as="sourcePoint" />
+            <mxPoint x="1230" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_MlfYKegQHGt1jVshfo-60" connectable="0" parent="d_MlfYKegQHGt1jVshfo-59" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Input Tgl / Req Tutup Kasir" vertex="1">
+          <mxGeometry relative="1" x="-0.0386" y="1" as="geometry">
+            <mxPoint x="53" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
