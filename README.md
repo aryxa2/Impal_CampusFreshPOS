@@ -17,6 +17,6 @@
 ![Class Diagram](https://github.com/user-attachments/assets/539581c8-8348-4950-901c-dbab0225d595)
 
 ## Stack Teknologi
-- Frontend: JavaScript
-- Backend: PHP
-- Database: MySQL
+- Frontend: Next.js
+- Backend: Python
+- Database: PosSQLite
